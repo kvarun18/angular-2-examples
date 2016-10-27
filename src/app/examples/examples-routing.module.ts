@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-import { HelloComponent } from './hello.component';
+import { HelloWorldComponent } from './hello-world/hello-world.component';
 
 const routes: Routes = [
-  { path: '', component: HelloComponent },
+  { path: '', component: HelloWorldComponent },
 ];
 
 @NgModule({
@@ -13,4 +12,4 @@ const routes: Routes = [
   ],
   providers: [],
 })
-export class HelloRoutingModule { }
+export class ExamplesRoutingModule { }
