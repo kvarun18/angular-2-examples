@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
-import { HelloModule } from './hello/hello.module';
-
+import { ExamplesModule } from './examples/examples.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -12,7 +10,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     CoreModule,
-    HelloModule,
+    ExamplesModule,
   ],
   declarations: [
     AppComponent,
