@@ -4,7 +4,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   selector: 'rio-app',
   templateUrl: './app.component.html',
   // Global styles imported in the app component.
-  styleUrls: ['../styles/index.css'],
+  styleUrls: [],
   encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent { }
